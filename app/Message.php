@@ -10,6 +10,10 @@ use Illuminate\Database\Eloquent\Model;
 
 // run php artisan make:migration create_messages_table -> create script to build up table
 
+// if table -> messages then model -> message
+
+// created this by php artisan make:model Message
+
 class Message extends Model
 {
     //

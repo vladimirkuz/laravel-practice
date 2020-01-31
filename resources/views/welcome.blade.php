@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
 
                     @if (true)
-                      {{date('Y-m-d H:i:s')}}
+                      {{date('Y-m-d H:i:s')}} hello
                     @endif
 
                 </div>

@@ -21,10 +21,6 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/', function () {
-    return view('welcome'); // return the html file in views/welcome.blade.php
-});
-
 Route::get('/hello', function () {
     echo "hello";
 });

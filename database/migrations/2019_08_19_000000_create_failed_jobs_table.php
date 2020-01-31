@@ -23,6 +23,8 @@ class CreateFailedJobsTable extends Migration
         });
     }
 
+    // run php artisan migrate to setup tables
+
     /**
      * Reverse the migrations.
      *
