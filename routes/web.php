@@ -13,10 +13,20 @@
 
 // define all routes here
 
+//Route::get('/', function () {
+//    return view('welcome'); // return the html file in views/welcome.blade.php
+//});
+
+// use controller file to deal with all logic (in this case relating to home page)
+
+Route::get('/', 'HomeController@index');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome'); // return the html file in views/welcome.blade.php
 });
 
 Route::get('/hello', function () {
     echo "hello";
 });
+
+// models are usually linked to database tables

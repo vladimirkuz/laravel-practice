@@ -1,5 +1,7 @@
 <?php
 
+// User.php comes with laravel - used for user authentication
+
 namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;

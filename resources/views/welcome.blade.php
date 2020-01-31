@@ -81,7 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+
+                    @if (true)
+                      {{date('Y-m-d H:i:s')}}
+                    @endif
+
                 </div>
 
                 <div class="links">
