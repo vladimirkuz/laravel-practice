@@ -19,10 +19,13 @@
 
 // use controller file to deal with all logic (in this case relating to home page)
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index'); //@(function name) in HomeController.php
 
-Route::get('/hello', function () {
-    echo "hello";
-});
+Route::post('/create', 'MessageController@create'); // for the form
+// create is form action
+
+Route::get('/message/{id}', 'MessageController@view');
+
+
 
 // models are usually linked to database tables
